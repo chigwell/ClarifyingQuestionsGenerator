@@ -84,7 +84,6 @@ class ClarifyingQuestionsGenerator:
 
     def analyze_feasibility(self, refined_task):
         analyzer = TaskFeasibilityAnalyzer(self.directory, self.gpt_api_key)
-        print("Refined task:", refined_task)
         probability = analyzer.analyze_task(refined_task)
         print("The probability that the task can be completed successfully is", probability)
         return probability
