@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='clarifyquestgen',
-    version='0.0.4',
+    version='2025.5.151003',
     author='Eugene Evstafev',
     author_email='chigwel@gmail.com',
     description='Clarifying Questions Generator for task refinement',
